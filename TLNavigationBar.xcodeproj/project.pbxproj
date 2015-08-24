@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13BB03F01B8B1A0700E5EFBF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13BB03EF1B8B1A0700E5EFBF /* main.m */; };
+		13BB03F31B8B1A0700E5EFBF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13BB03F21B8B1A0700E5EFBF /* AppDelegate.m */; };
+		13BB03F61B8B1A0700E5EFBF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13BB03F51B8B1A0700E5EFBF /* ViewController.m */; };
+		13BB03F91B8B1A0700E5EFBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13BB03F71B8B1A0700E5EFBF /* Main.storyboard */; };
+		13BB03FB1B8B1A0700E5EFBF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13BB03FA1B8B1A0700E5EFBF /* Images.xcassets */; };
+		13BB03FE1B8B1A0700E5EFBF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13BB03FC1B8B1A0700E5EFBF /* LaunchScreen.xib */; };
+		13BB040A1B8B1A0700E5EFBF /* TLNavigationBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13BB04091B8B1A0700E5EFBF /* TLNavigationBarTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		13BB04041B8B1A0700E5EFBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13BB03E21B8B1A0700E5EFBF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13BB03E91B8B1A0700E5EFBF;
+			remoteInfo = TLNavigationBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13BB03EA1B8B1A0700E5EFBF /* TLNavigationBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TLNavigationBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13BB03EE1B8B1A0700E5EFBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13BB03EF1B8B1A0700E5EFBF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		13BB03F11B8B1A0700E5EFBF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		13BB03F21B8B1A0700E5EFBF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		13BB03F41B8B1A0700E5EFBF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		13BB03F51B8B1A0700E5EFBF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		13BB03F81B8B1A0700E5EFBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		13BB03FA1B8B1A0700E5EFBF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		13BB03FD1B8B1A0700E5EFBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		13BB04031B8B1A0700E5EFBF /* TLNavigationBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TLNavigationBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		13BB04081B8B1A0700E5EFBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13BB04091B8B1A0700E5EFBF /* TLNavigationBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLNavigationBarTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13BB03E71B8B1A0700E5EFBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13BB04001B8B1A0700E5EFBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13BB03E11B8B1A0700E5EFBF = {
+			isa = PBXGroup;
+			children = (
+				13BB03EC1B8B1A0700E5EFBF /* TLNavigationBar */,
+				13BB04061B8B1A0700E5EFBF /* TLNavigationBarTests */,
+				13BB03EB1B8B1A0700E5EFBF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		13BB03EB1B8B1A0700E5EFBF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13BB03EA1B8B1A0700E5EFBF /* TLNavigationBar.app */,
+				13BB04031B8B1A0700E5EFBF /* TLNavigationBarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13BB03EC1B8B1A0700E5EFBF /* TLNavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				13BB03F11B8B1A0700E5EFBF /* AppDelegate.h */,
+				13BB03F21B8B1A0700E5EFBF /* AppDelegate.m */,
+				13BB03F41B8B1A0700E5EFBF /* ViewController.h */,
+				13BB03F51B8B1A0700E5EFBF /* ViewController.m */,
+				13BB03F71B8B1A0700E5EFBF /* Main.storyboard */,
+				13BB03FA1B8B1A0700E5EFBF /* Images.xcassets */,
+				13BB03FC1B8B1A0700E5EFBF /* LaunchScreen.xib */,
+				13BB03ED1B8B1A0700E5EFBF /* Supporting Files */,
+			);
+			path = TLNavigationBar;
+			sourceTree = "<group>";
+		};
+		13BB03ED1B8B1A0700E5EFBF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				13BB03EE1B8B1A0700E5EFBF /* Info.plist */,
+				13BB03EF1B8B1A0700E5EFBF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13BB04061B8B1A0700E5EFBF /* TLNavigationBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				13BB04091B8B1A0700E5EFBF /* TLNavigationBarTests.m */,
+				13BB04071B8B1A0700E5EFBF /* Supporting Files */,
+			);
+			path = TLNavigationBarTests;
+			sourceTree = "<group>";
+		};
+		13BB04071B8B1A0700E5EFBF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				13BB04081B8B1A0700E5EFBF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13BB03E91B8B1A0700E5EFBF /* TLNavigationBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13BB040D1B8B1A0700E5EFBF /* Build configuration list for PBXNativeTarget "TLNavigationBar" */;
+			buildPhases = (
+				13BB03E61B8B1A0700E5EFBF /* Sources */,
+				13BB03E71B8B1A0700E5EFBF /* Frameworks */,
+				13BB03E81B8B1A0700E5EFBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TLNavigationBar;
+			productName = TLNavigationBar;
+			productReference = 13BB03EA1B8B1A0700E5EFBF /* TLNavigationBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		13BB04021B8B1A0700E5EFBF /* TLNavigationBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13BB04101B8B1A0700E5EFBF /* Build configuration list for PBXNativeTarget "TLNavigationBarTests" */;
+			buildPhases = (
+				13BB03FF1B8B1A0700E5EFBF /* Sources */,
+				13BB04001B8B1A0700E5EFBF /* Frameworks */,
+				13BB04011B8B1A0700E5EFBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13BB04051B8B1A0700E5EFBF /* PBXTargetDependency */,
+			);
+			name = TLNavigationBarTests;
+			productName = TLNavigationBarTests;
+			productReference = 13BB04031B8B1A0700E5EFBF /* TLNavigationBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13BB03E21B8B1A0700E5EFBF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = andezhou;
+				TargetAttributes = {
+					13BB03E91B8B1A0700E5EFBF = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					13BB04021B8B1A0700E5EFBF = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 13BB03E91B8B1A0700E5EFBF;
+					};
+				};
+			};
+			buildConfigurationList = 13BB03E51B8B1A0700E5EFBF /* Build configuration list for PBXProject "TLNavigationBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 13BB03E11B8B1A0700E5EFBF;
+			productRefGroup = 13BB03EB1B8B1A0700E5EFBF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13BB03E91B8B1A0700E5EFBF /* TLNavigationBar */,
+				13BB04021B8B1A0700E5EFBF /* TLNavigationBarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13BB03E81B8B1A0700E5EFBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13BB03F91B8B1A0700E5EFBF /* Main.storyboard in Resources */,
+				13BB03FE1B8B1A0700E5EFBF /* LaunchScreen.xib in Resources */,
+				13BB03FB1B8B1A0700E5EFBF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13BB04011B8B1A0700E5EFBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13BB03E61B8B1A0700E5EFBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13BB03F61B8B1A0700E5EFBF /* ViewController.m in Sources */,
+				13BB03F31B8B1A0700E5EFBF /* AppDelegate.m in Sources */,
+				13BB03F01B8B1A0700E5EFBF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13BB03FF1B8B1A0700E5EFBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13BB040A1B8B1A0700E5EFBF /* TLNavigationBarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		13BB04051B8B1A0700E5EFBF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13BB03E91B8B1A0700E5EFBF /* TLNavigationBar */;
+			targetProxy = 13BB04041B8B1A0700E5EFBF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		13BB03F71B8B1A0700E5EFBF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13BB03F81B8B1A0700E5EFBF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		13BB03FC1B8B1A0700E5EFBF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13BB03FD1B8B1A0700E5EFBF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13BB040B1B8B1A0700E5EFBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		13BB040C1B8B1A0700E5EFBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13BB040E1B8B1A0700E5EFBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TLNavigationBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		13BB040F1B8B1A0700E5EFBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TLNavigationBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		13BB04111B8B1A0700E5EFBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TLNavigationBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TLNavigationBar.app/TLNavigationBar";
+			};
+			name = Debug;
+		};
+		13BB04121B8B1A0700E5EFBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TLNavigationBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TLNavigationBar.app/TLNavigationBar";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13BB03E51B8B1A0700E5EFBF /* Build configuration list for PBXProject "TLNavigationBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13BB040B1B8B1A0700E5EFBF /* Debug */,
+				13BB040C1B8B1A0700E5EFBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13BB040D1B8B1A0700E5EFBF /* Build configuration list for PBXNativeTarget "TLNavigationBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13BB040E1B8B1A0700E5EFBF /* Debug */,
+				13BB040F1B8B1A0700E5EFBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		13BB04101B8B1A0700E5EFBF /* Build configuration list for PBXNativeTarget "TLNavigationBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13BB04111B8B1A0700E5EFBF /* Debug */,
+				13BB04121B8B1A0700E5EFBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 13BB03E21B8B1A0700E5EFBF /* Project object */;
+}
