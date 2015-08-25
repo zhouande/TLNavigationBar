@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  TLTableViewController.h
 //  TLNavigationBar
 //
 //  Created by andezhou on 15/8/24.
@@ -8,10 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
-
+@interface TLTableViewController : UITableViewController
 
 @end
-

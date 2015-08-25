@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		13BB03F01B8B1A0700E5EFBF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13BB03EF1B8B1A0700E5EFBF /* main.m */; };
-		13BB03F31B8B1A0700E5EFBF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13BB03F21B8B1A0700E5EFBF /* AppDelegate.m */; };
-		13BB03F61B8B1A0700E5EFBF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13BB03F51B8B1A0700E5EFBF /* ViewController.m */; };
+		13BB03F31B8B1A0700E5EFBF /* TLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13BB03F21B8B1A0700E5EFBF /* TLAppDelegate.m */; };
 		13BB03F91B8B1A0700E5EFBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13BB03F71B8B1A0700E5EFBF /* Main.storyboard */; };
 		13BB03FB1B8B1A0700E5EFBF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13BB03FA1B8B1A0700E5EFBF /* Images.xcassets */; };
 		13BB03FE1B8B1A0700E5EFBF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13BB03FC1B8B1A0700E5EFBF /* LaunchScreen.xib */; };
 		13BB040A1B8B1A0700E5EFBF /* TLNavigationBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13BB04091B8B1A0700E5EFBF /* TLNavigationBarTests.m */; };
+		13BB04161B8B1A4000E5EFBF /* TLTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13BB04151B8B1A4000E5EFBF /* TLTableViewController.m */; };
+		13BB04191B8B1BFA00E5EFBF /* TLAlphaTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13BB04181B8B1BFA00E5EFBF /* TLAlphaTableViewController.m */; };
+		13BB041C1B8B1D6200E5EFBF /* UINavigationBar+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 13BB041B1B8B1D6200E5EFBF /* UINavigationBar+Helper.m */; };
+		13BB041E1B8B1F6500E5EFBF /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13BB041D1B8B1F6500E5EFBF /* bg.jpg */; };
+		13C7365F1B8C07AF0050F076 /* TLTranslationTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13C7365E1B8C07AF0050F076 /* TLTranslationTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,16 +34,23 @@
 		13BB03EA1B8B1A0700E5EFBF /* TLNavigationBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TLNavigationBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13BB03EE1B8B1A0700E5EFBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		13BB03EF1B8B1A0700E5EFBF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		13BB03F11B8B1A0700E5EFBF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		13BB03F21B8B1A0700E5EFBF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		13BB03F41B8B1A0700E5EFBF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		13BB03F51B8B1A0700E5EFBF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		13BB03F11B8B1A0700E5EFBF /* TLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TLAppDelegate.h; sourceTree = "<group>"; };
+		13BB03F21B8B1A0700E5EFBF /* TLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLAppDelegate.m; sourceTree = "<group>"; };
 		13BB03F81B8B1A0700E5EFBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		13BB03FA1B8B1A0700E5EFBF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		13BB03FD1B8B1A0700E5EFBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		13BB04031B8B1A0700E5EFBF /* TLNavigationBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TLNavigationBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		13BB04081B8B1A0700E5EFBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		13BB04091B8B1A0700E5EFBF /* TLNavigationBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLNavigationBarTests.m; sourceTree = "<group>"; };
+		13BB04141B8B1A4000E5EFBF /* TLTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLTableViewController.h; sourceTree = "<group>"; };
+		13BB04151B8B1A4000E5EFBF /* TLTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLTableViewController.m; sourceTree = "<group>"; };
+		13BB04171B8B1BFA00E5EFBF /* TLAlphaTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLAlphaTableViewController.h; sourceTree = "<group>"; };
+		13BB04181B8B1BFA00E5EFBF /* TLAlphaTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLAlphaTableViewController.m; sourceTree = "<group>"; };
+		13BB041A1B8B1D6200E5EFBF /* UINavigationBar+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+Helper.h"; sourceTree = "<group>"; };
+		13BB041B1B8B1D6200E5EFBF /* UINavigationBar+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+Helper.m"; sourceTree = "<group>"; };
+		13BB041D1B8B1F6500E5EFBF /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg.jpg; sourceTree = "<group>"; };
+		13C7365D1B8C07AF0050F076 /* TLTranslationTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLTranslationTableViewController.h; sourceTree = "<group>"; };
+		13C7365E1B8C07AF0050F076 /* TLTranslationTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLTranslationTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +92,15 @@
 		13BB03EC1B8B1A0700E5EFBF /* TLNavigationBar */ = {
 			isa = PBXGroup;
 			children = (
-				13BB03F11B8B1A0700E5EFBF /* AppDelegate.h */,
-				13BB03F21B8B1A0700E5EFBF /* AppDelegate.m */,
-				13BB03F41B8B1A0700E5EFBF /* ViewController.h */,
-				13BB03F51B8B1A0700E5EFBF /* ViewController.m */,
+				13BB04131B8B1A1B00E5EFBF /* TLNavigationBar */,
+				13BB03F11B8B1A0700E5EFBF /* TLAppDelegate.h */,
+				13BB03F21B8B1A0700E5EFBF /* TLAppDelegate.m */,
+				13BB04141B8B1A4000E5EFBF /* TLTableViewController.h */,
+				13BB04151B8B1A4000E5EFBF /* TLTableViewController.m */,
+				13BB04171B8B1BFA00E5EFBF /* TLAlphaTableViewController.h */,
+				13BB04181B8B1BFA00E5EFBF /* TLAlphaTableViewController.m */,
+				13C7365D1B8C07AF0050F076 /* TLTranslationTableViewController.h */,
+				13C7365E1B8C07AF0050F076 /* TLTranslationTableViewController.m */,
 				13BB03F71B8B1A0700E5EFBF /* Main.storyboard */,
 				13BB03FA1B8B1A0700E5EFBF /* Images.xcassets */,
 				13BB03FC1B8B1A0700E5EFBF /* LaunchScreen.xib */,
@@ -96,6 +112,7 @@
 		13BB03ED1B8B1A0700E5EFBF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				13BB041D1B8B1F6500E5EFBF /* bg.jpg */,
 				13BB03EE1B8B1A0700E5EFBF /* Info.plist */,
 				13BB03EF1B8B1A0700E5EFBF /* main.m */,
 			);
@@ -117,6 +134,15 @@
 				13BB04081B8B1A0700E5EFBF /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13BB04131B8B1A1B00E5EFBF /* TLNavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				13BB041A1B8B1D6200E5EFBF /* UINavigationBar+Helper.h */,
+				13BB041B1B8B1D6200E5EFBF /* UINavigationBar+Helper.m */,
+			);
+			name = TLNavigationBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,6 +227,7 @@
 			files = (
 				13BB03F91B8B1A0700E5EFBF /* Main.storyboard in Resources */,
 				13BB03FE1B8B1A0700E5EFBF /* LaunchScreen.xib in Resources */,
+				13BB041E1B8B1F6500E5EFBF /* bg.jpg in Resources */,
 				13BB03FB1B8B1A0700E5EFBF /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,9 +246,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13BB03F61B8B1A0700E5EFBF /* ViewController.m in Sources */,
-				13BB03F31B8B1A0700E5EFBF /* AppDelegate.m in Sources */,
+				13BB04191B8B1BFA00E5EFBF /* TLAlphaTableViewController.m in Sources */,
+				13C7365F1B8C07AF0050F076 /* TLTranslationTableViewController.m in Sources */,
+				13BB041C1B8B1D6200E5EFBF /* UINavigationBar+Helper.m in Sources */,
+				13BB03F31B8B1A0700E5EFBF /* TLAppDelegate.m in Sources */,
 				13BB03F01B8B1A0700E5EFBF /* main.m in Sources */,
+				13BB04161B8B1A4000E5EFBF /* TLTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,6 +378,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TLNavigationBar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -358,6 +389,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TLNavigationBar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -416,6 +448,7 @@
 				13BB040F1B8B1A0700E5EFBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		13BB04101B8B1A0700E5EFBF /* Build configuration list for PBXNativeTarget "TLNavigationBarTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +457,7 @@
 				13BB04121B8B1A0700E5EFBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
